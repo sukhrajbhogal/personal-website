@@ -1,8 +1,24 @@
-.name-title{
+html {
+  height: 100%;
+}
+
+body{
+  background: linear-gradient(to top, #c9d6ff, #e2e2e2);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#name-title{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 3em;
   margin-bottom: 50%
   margin-left: auto;
   margin-right: auto;
+  font-size: 5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-block{
 
 }
