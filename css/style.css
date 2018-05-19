@@ -3,7 +3,7 @@ html {
 }
 
 body{
-  background: linear-gradient(to top, #c9d6ff, #e2e2e2);
+  background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,16 +11,40 @@ body{
 
 #name-title{
   text-align: center;
-  margin-top: 3em;
-  margin-bottom: 50%
+  margin-top: 100pt;
   margin-left: auto;
   margin-right: auto;
-  font-size: 5em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 50pt;
+  font-family: 'Open Sans', sans-serif;
 }
 
+#title-caption{
+  text-align: center;
+  margin-top: 10pt;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15pt;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.box{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40pt;
+  margin-bottom: 30pt;
+  padding: 10pt;
+  height: 50pt;
+  width: 320pt;
+}
 @media all screen and (max-width: 414px) and (min-width: 320px){
   #name-title{
     font-size: 3.3em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 50%
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
   }
 }
