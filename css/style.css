@@ -28,7 +28,6 @@ body{
 }
 
 .box{
-  border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20pt;
@@ -38,19 +37,50 @@ body{
   width: 320pt;
 }
 
-.icons8-linkedin {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IgogICAgIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIKICAgICB2aWV3Qm94PSIwIDAgNDggNDgiCiAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDsiPjxnIGlkPSJzdXJmYWNlMSI+PHBhdGggc3R5bGU9IiBmaWxsOiMwMjg4RDE7IiBkPSJNIDQyIDM3IEMgNDIgMzkuNzYxNzE5IDM5Ljc2MTcxOSA0MiAzNyA0MiBMIDExIDQyIEMgOC4yMzgyODEgNDIgNiAzOS43NjE3MTkgNiAzNyBMIDYgMTEgQyA2IDguMjM4MjgxIDguMjM4MjgxIDYgMTEgNiBMIDM3IDYgQyAzOS43NjE3MTkgNiA0MiA4LjIzODI4MSA0MiAxMSBaICI+PC9wYXRoPjxwYXRoIHN0eWxlPSIgZmlsbDojRkZGRkZGOyIgZD0iTSAxMiAxOSBMIDE3IDE5IEwgMTcgMzYgTCAxMiAzNiBaICI+PC9wYXRoPjxwYXRoIHN0eWxlPSIgZmlsbDojRkZGRkZGOyIgZD0iTSAxNC40ODQzNzUgMTcgTCAxNC40NTcwMzEgMTcgQyAxMi45NjQ4NDQgMTcgMTIgMTUuODg2NzE5IDEyIDE0LjUgQyAxMiAxMy4wNzgxMjUgMTIuOTk2MDk0IDEyIDE0LjUxNTYyNSAxMiBDIDE2LjAzNTE1NiAxMiAxNi45NzI2NTYgMTMuMDc4MTI1IDE3IDE0LjUgQyAxNyAxNS44ODY3MTkgMTYuMDM1MTU2IDE3IDE0LjQ4NDM3NSAxNyBaICI+PC9wYXRoPjxwYXRoIHN0eWxlPSIgZmlsbDojRkZGRkZGOyIgZD0iTSAzNiAzNiBMIDMxIDM2IEwgMzEgMjYuOTAyMzQ0IEMgMzEgMjQuNzAzMTI1IDI5Ljc3MzQzOCAyMy4yMDMxMjUgMjcuODA4NTk0IDIzLjIwMzEyNSBDIDI2LjMwODU5NCAyMy4yMDMxMjUgMjUuNDk2MDk0IDI0LjIxNDg0NCAyNS4xMDE1NjMgMjUuMTkxNDA2IEMgMjQuOTU3MDMxIDI1LjU0Mjk2OSAyNSAyNi41MTE3MTkgMjUgMjcgTCAyNSAzNiBMIDIwIDM2IEwgMjAgMTkgTCAyNSAxOSBMIDI1IDIxLjYxNzE4OCBDIDI1LjcyMjY1NiAyMC41IDI2Ljg1MTU2MyAxOSAyOS43MzgyODEgMTkgQyAzMy4zMTY0MDYgMTkgMzYgMjEuMjUgMzYgMjYuMjczNDM4IFogIj48L3BhdGg+PC9nPjwvc3ZnPg==') 50% 50% no-repeat;
-  background-size: 100%;
-}
-
-img{
+#img-linkedin{
   height: 50px;
   width: 50px;
   margin-left: 2pt;
   margin-right: 2pt;
+}
+
+#img-instagram{
+  height: 45px;
+  width: 45px;
+  margin-left: 2pt;
+  margin-right: 2pt;
+}
+
+#img-github{
+  height: 50px;
+  width: 50px;
+  margin-left: 1.6pt;
+  margin-right: 1.4pt;
+}
+
+#img-email{
+  height: 47px;
+  width: 47px;
+  margin-left: -.5pt;
+  margin-right: 2pt;
+}
+
+#img-facebook{
+  height: 37px;
+  width: 37px;
+  margin-left: 2pt;
+  margin-right: 2pt;
+}
+
+#img-px{
+  height: 43px;
+  width: 43px;
+  margin-left: 2pt;
+  margin-right: 2pt;
+}
+
+a{
+  text-decoration: none;
 }
 
 @media all screen and (max-width: 414px) and (min-width: 320px){
