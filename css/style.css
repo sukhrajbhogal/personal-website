@@ -31,7 +31,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top: 20pt;
-  margin-bottom: 20pt;
+  margin-bottom: 30pt;
   padding: 4pt;
   height: 50pt;
   width: 320pt;
@@ -81,7 +81,14 @@ body{
 
 a{
   text-decoration: none;
+  margin-top: -3pt;
 }
+
+#img-education-work-resume{
+  height: 40px;
+  width: 40px;
+  margin-bottom: 2pt;
+
 
 @media all screen and (max-width: 414px) and (min-width: 320px){
   #name-title{
