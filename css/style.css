@@ -9,13 +9,33 @@ body{
   background-attachment: fixed;
 }
 
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+}
+
+.button {
+    background-color: #429FFD;
+    border: none;
+    color: white;
+    padding: 7pt 16pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    margin-bottom: 20pt;
+}
+
 #name-title{
   text-align: center;
-  margin-top: 100pt;
+  margin-top: 80pt;
   margin-left: auto;
   margin-right: auto;
   font-size: 50pt;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
 }
 
 #title-caption{
@@ -25,6 +45,8 @@ body{
   margin-right: auto;
   font-size: 15pt;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
 }
 
 .box{
@@ -32,6 +54,16 @@ body{
   margin-right: auto;
   margin-top: 20pt;
   margin-bottom: 30pt;
+  padding: 4pt;
+  height: 50pt;
+  width: 320pt;
+}
+
+.social-box{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50pt;
+  margin-bottom: 20pt;
   padding: 4pt;
   height: 50pt;
   width: 320pt;
@@ -81,7 +113,10 @@ body{
 
 a{
   text-decoration: none;
-  margin-top: -3pt;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 #img-education-work-resume{
